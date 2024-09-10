@@ -1,0 +1,122 @@
+/* App.css */
+
+/* Set the main background color to light orange */
+body {
+  background-color: #FFDAB9; /* Light orange */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+input[type="file"] {
+  display: none; /* Hide the default file input */
+}
+
+/* Custom label for the file input */
+.custom-file-upload {
+  background-color: #FFA07A; /* Light salmon color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline-block;
+}
+
+.custom-file-upload:hover {
+  background-color: #FF6347; /* Tomato color */
+}
+
+button {
+  background-color: #FFA07A; /* Light salmon color */
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF6347; /* Tomato color */
+}
+
+p {
+  color: red;
+  font-size: 1rem;
+}
+
+h2 {
+  color: #333;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #FFF8DC; /* Cornsilk color */
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+li strong {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+li p {
+  color: #555;
+  font-size: 1rem;
+}
+
+.custom-file-upload {
+  background-color: #FFA07A;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.custom-file-upload:hover {
+  background-color: #FF6347;
+}
+
+button {
+  background-color: #FFA07A;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px; /* Add some margin between buttons */
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FF6347;
+}
